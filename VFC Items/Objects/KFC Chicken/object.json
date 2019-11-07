@@ -1,0 +1,31 @@
+{
+  "Name": "KFC",
+  "Description": "Finger Lickin' Good!",
+  "Category": "Cooking",
+  "Edibility": 100,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "Duration": 100,
+  },
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+      {
+        "Object": 641,
+        "Count": 1,
+      }
+    ],
+    "IsDefault": true,
+  }
+}

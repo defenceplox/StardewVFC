@@ -1,0 +1,65 @@
+{
+   "useid": "Platonymous.NewMachines",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Bottling Machine",
+      "description": "Stick stuff in bottles",
+      "category": "Crafting",
+      "texture": "newmachines.png",
+      "crafting": "170 5 388 50 334 5",
+      "pulsate": false,
+	"starter": "glass bottle",
+      "readyindex": 12,
+      "tileindex": 6,
+      "frames": 11,
+      "production": [
+        {
+          "item": "Bottled",
+          "suffix": true,
+          "time": 30,
+          "materials": [
+            {
+              "item": "Ketchup",
+	        "stack": 5,
+            },
+		{
+              "index": 303,
+		}
+          ]
+        }
+		]
+	},
+	{
+      "id": 1,
+      "name": "Glass Bottle Machine",
+      "description": "Produces glass bottles from glass",
+      "category": "Crafting",
+      "texture": "newmachines.png",
+      "crafting": "170 5 388 50 334 5",
+      "pulsate": true,
+      "readyindex": 14,
+      "tileindex": 13,
+      "production": [
+        {
+          "item": "Glass Bottle",
+          "time": 40,
+          "materials": [
+            {
+			  "index": 170,
+            }
+          ]
+        },
+		        {
+          "item": "Glass Bottle",
+          "time": 40,
+          "materials": [
+            {
+			  "index": 118,
+            }
+          ]
+        }
+		]
+	}
+	]
+}
