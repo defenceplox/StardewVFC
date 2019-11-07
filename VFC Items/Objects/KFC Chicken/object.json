@@ -27,5 +27,14 @@
       }
     ],
     "IsDefault": true,
+<<<<<<< HEAD
+ "GiftTastes":
+    {
+        "Love": [ "Pam"],
+        "Like": [],
+        "Dislike": ["Abigail","Krobus", "Leah", "Willy","Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard"],
+    },
+=======
+>>>>>>> 903686c2e5f437076ec0c1a80189ea5d1bdb000d
   }
 }
