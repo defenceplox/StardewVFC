@@ -1,0 +1,10 @@
+{
+  "Name": "Bottle",
+  "Description": "glass Bottle",
+  "Category": "crafting",
+  "Edibility": -300,
+  "Price": 400,
+  "IsColored": false,
+  "Recipe": null,
+  "PurchaseRequirements": null,
+}
