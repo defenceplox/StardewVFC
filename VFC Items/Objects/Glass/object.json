@@ -1,7 +1,7 @@
 {
-  "Name": "Bottle",
-  "Description": "Glass Bottle",
-  "Category": "mineral",
+  "Name": "Glass",
+  "Description": "A Pane of glass",
+  "Category": "Mineral",
   "Edibility": -300,
   "Price": 400,
   "IsColored": false,
