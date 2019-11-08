@@ -1,9 +1,9 @@
 {
-  "Name": "Craftable KFC",
+  "Name": "Craftable VFC",
   "Description": "Finger Lickin' Good!",
-  "Version": "0.0.4",
+  "Version": "0.0.7",
   "Author": "defenceplox",
-  "UniqueID": "defenceplox.KFC",
+  "UniqueID": "defenceplox.VFC",
   "ContentPackFor": {
 	"UniqueID": "spacechase0.JsonAssets"
     }

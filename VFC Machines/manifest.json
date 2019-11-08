@@ -1,9 +1,9 @@
 ﻿{
-  "Name": "Kentucky Fried Machines",
+  "Name": "Valley Fried Machines",
   "Author": "defenceplox",
-  "Version": "0.0.3",
+  "Version": "0.0.7",
   "Description": "Machines to help make finger lickin' good chicken",
-  "UniqueID": "defenceplox.KFM.bottles",
+  "UniqueID": "defenceplox.VFM.machines",
   "ContentPackFor": {
     "UniqueID": "Platonymous.CustomFarming",
     "MinimumVersion": "2.9.10"
