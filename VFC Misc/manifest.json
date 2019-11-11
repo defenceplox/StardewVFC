@@ -1,0 +1,10 @@
+{
+  "Name": "VFC Misc",
+  "Description": "Finger Lickin' Good!",
+  "Version": "0.0.9",
+  "Author": "defenceplox",
+  "UniqueID": "defenceplox.VFCMisc",
+  "ContentPackFor": {
+	"UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

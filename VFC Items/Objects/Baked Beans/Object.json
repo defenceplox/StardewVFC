@@ -18,7 +18,7 @@
     "ResultCount": 1,
     "Ingredients": [
       {
-        "item": "Haricot Bean",
+        "Object": "Haricot Bean",
         "Count": 5,
       },
       {
