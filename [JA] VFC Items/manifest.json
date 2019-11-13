@@ -1,0 +1,10 @@
+{
+  "Name": "Craftable VFC",
+  "Description": "Finger Lickin' Good!",
+  "Version": "0.0.9",
+  "Author": "defenceplox",
+  "UniqueID": "defenceplox.VFC",
+  "ContentPackFor": {
+	"UniqueID": "spacechase0.JsonAssets"
+    }
+}

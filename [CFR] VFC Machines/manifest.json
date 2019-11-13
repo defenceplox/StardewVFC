@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Valley Fried Machines",
+  "Author": "defenceplox",
+  "Version": "0.0.8",
+  "Description": "Machines to help make finger lickin' good chicken",
+  "UniqueID": "defenceplox.VFM.machines",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomFarming",
+    "MinimumVersion": "2.9.10"
+  }
+}

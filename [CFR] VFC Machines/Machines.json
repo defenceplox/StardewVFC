@@ -1,0 +1,83 @@
+{
+   "useid": "Platonymous.NewMachines",
+  "machines": [
+    {
+      "id": 0,
+      "name": "Bottling Machine",
+      "description": "Stick stuff in bottles",
+      "category": "Crafting",
+      "texture": "newmachines.png",
+      "crafting": "170 5 388 50 334 5",
+      "pulsate": false,
+      "readyindex": 12,
+      "tileindex": 6,
+      "frames": 11,
+      "production": [
+        {
+          "item": "Bottled Ketchup",
+          "time": 30,
+          "materials": [
+            {
+              "item": "Ketchup",
+	        "stack": 5,
+            },
+		{
+              "item": "Bottle",
+			  "stack": 1,
+		}
+          ]
+        }
+		]
+	},
+	{
+      "id": 1,
+      "name": "Glass Bottle Machine",
+      "description": "Produces glass bottles from glass",
+      "category": "Crafting",
+      "texture": "newmachines.png",
+      "crafting": "170 5 388 50 334 5",
+      "pulsate": false,
+	  "lightsource": true,
+      "readyindex": 26,
+      "tileindex": 18,
+	  "frames": 7,
+      "production": [
+        {
+          "item": "Bottle",
+		  "stack": 2,
+          "time": 30,
+          "materials": [
+            {
+			  "item": "Glass",
+            }
+          ]
+        },
+		]
+	},
+		{
+      "id": 2,
+      "name": "Glass Furnace",
+      "description": "Melt Sand, Get Glass",
+      "category": "Crafting",
+      "texture": "glassfurnace.png",
+      "crafting": "170 5 388 50 334 5",
+      "pulsate": false,
+	  "lightsource": true,
+      "readyindex": 8,
+      "tileindex": 0,
+	  "frames": 7,
+      "production": [
+        {
+          "item": "Glass",
+          "time": 15,
+          "materials": [
+            {
+			  "item": "Sand",
+			  "stack": 10,
+            },
+          ]
+        },
+		]
+	}
+	]
+}
