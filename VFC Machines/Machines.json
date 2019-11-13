@@ -58,15 +58,16 @@
       "name": "Glass Furnace",
       "description": "Melt Sand, Get Glass",
       "category": "Crafting",
-      "texture": "newmachines.png",
+      "texture": "newmachines2.png",
       "crafting": "170 5 388 50 334 5",
-      "pulsate": true,
-      "readyindex": 0,
+      "pulsate": false,
+      "readyindex": 8,
       "tileindex": 0,
+	  "frames": 7,
       "production": [
         {
           "item": "Glass",
-          "time": 5,
+          "time": 15,
           "materials": [
             {
 			  "item": "Sand",
