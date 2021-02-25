@@ -1,0 +1,57 @@
+{
+    "Name": "Glass Bottle Machine",
+    "Description": "Creates glass bottles from glass",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 8,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+          {
+             "Object": 2,
+             "Count": 25,
+         },
+          {
+             "Object": 378,
+             "Count": 20,
+         },
+        {
+            "Object": "Glass",
+            "Count": 10,
+        },
+        {
+            "Object": 709,
+            "Count": 10,
+        }, ],
+        "IsDefault": true,
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

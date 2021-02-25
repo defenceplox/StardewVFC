@@ -1,0 +1,53 @@
+{
+    "Name": "Bottling Machine",
+    "Description": "Sticks stuff into bottles",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 13,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 170,
+            "Count": 5,
+        },
+        {
+            "Object": 388,
+            "Count": 50,
+        },
+        {
+            "Object": 334,
+            "Count": 5,
+        }, ],
+        "IsDefault": true,
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Name": "Haricot Bean",
+    "Description": "A small white bean. Goes really well in a tomato sauce then baked",
+    "Category": "Vegetable",
+    "Price": 5,
+    "Edibility": 10,
+    "IsColored": false,
+    "Recipe": null,
+}

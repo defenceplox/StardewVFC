@@ -1,0 +1,10 @@
+{
+  "Name": "Bottle",
+  "Description": "Glass Bottle",
+  "Category": "mineral",
+  "Edibility": -300,
+  "Price": 400,
+  "IsColored": false,
+  "Recipe": null,
+  "PurchaseRequirements": null,
+}

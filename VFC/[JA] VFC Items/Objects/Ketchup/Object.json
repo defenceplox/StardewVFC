@@ -1,0 +1,35 @@
+{
+  "Name": "Ketchup",
+  "Description": "'The Red Sauce'",
+  "Category": "Cooking",
+  "Edibility": 0,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "Duration": 100,
+  },
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 10,
+    "Ingredients": [
+      {
+        "Object": 256,
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 3,
+      },
+	  {
+		"Object": 419,
+		"Count": 1,
+	  }
+    ],
+    "IsDefault": false,
+  }
+}

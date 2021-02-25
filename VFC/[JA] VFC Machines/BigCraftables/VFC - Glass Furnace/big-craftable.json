@@ -1,0 +1,57 @@
+{
+    "Name": "Glass Furnace",
+    "Description": "Melts glass items and sand into glass panes",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 8,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 2,
+            "Count": 25,
+        },
+        {
+            "Object": 378,
+            "Count": 20,
+        },
+        {
+            "Object": 382,
+            "Count": 30,
+        },
+        {
+            "Object": 338,
+            "Count": 5,
+        }, ],
+        "IsDefault": true,
+    },
+    "NameLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    },
+    "DescriptionLocalization":
+    {
+        // "es": "",
+        // "ko": "",
+        // "de": "",
+        // "fr": "",
+        // "hu": "",
+        // "it": "",
+        // "ja": "",
+        // "pt": "",
+        // "ru": "",
+        // "tr": "",
+        // "zh": "",
+    }
+}

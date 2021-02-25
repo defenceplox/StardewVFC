@@ -1,0 +1,13 @@
+[
+	{
+		"Id": "VFC.RBKetchup",
+		"GroupId": "VFC.Recipes",
+		"Title": "New recipe day!",
+		"Text": "Dear @^ I hope you are doing well.^ I've gone ahead and attached you a new recipe to try!^ It is for a type of sauce called Ketchup.^ Unfortunately it isn't much use in its current state. If only we had a way to bottle it... I'll get back to you on that^ Barry Wong",
+		"Recipe": "Ketchup",
+		"WhichBG": 1,
+		"Date": "1 spring Y1"
+
+	}
+
+]

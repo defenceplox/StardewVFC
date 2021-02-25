@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[JA] Bottling Machine",
+	"Author": "defenceplox",
+	"Version": "0.8",
+	"Description": "Bottling Machine",
+	"UniqueID": "defenceplox.VFCmachineryJA",
+	"MinimumApiVersion": "3.0.1",
+	"UpdateKeys": [],
+	"ContentPackFor": {
+		"UniqueID": "spacechase0.JsonAssets"
+	}
+}
