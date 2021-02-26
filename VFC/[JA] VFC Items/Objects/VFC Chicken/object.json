@@ -10,8 +10,8 @@
     "Mining": 0,
     "Fishing": 0,
     "Luck": 0,
-    "Duration": 100,
-    "Speed": -5,
+    "Duration": 30,
+    "Speed": -2,
   },
   "Price": 250,
   "IsColored": false,
@@ -27,7 +27,7 @@
         "Count": 1,
       }
     ],
-    "IsDefault": true,
+    "IsDefault": false,
  "GiftTastes":
     {
         "Love": [ "Pam"],
