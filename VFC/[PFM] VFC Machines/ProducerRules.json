@@ -83,5 +83,22 @@
 			"furnace"
 		],
 		"PlacingAnimationColorName": "White"
+	},
+	{ 
+		"ProducerName": "Rock Pulveriser",
+		"InputIdentifier": 390,
+		"InputStack": 1,
+		"FuelIdentifier": 382,
+		"FuelStack": 1,
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Sand",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 5,
+		"Sounds": [
+			"boulderCrack"
+		],
+		"PlacingAnimationColorName": "White"
 	}
 ]
