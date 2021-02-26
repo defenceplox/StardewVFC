@@ -1,7 +1,7 @@
 ﻿{
 	"Name": "[PFM] VFC Machines",
 	"Author": "defenceplox",
-	"Version": "0.8",
+	"Version": "0.0.8",
 	"Description": "VFC Machinery",
 	"UniqueID": "defenceplox.VFCmachineryPFM",
 	"MinimumApiVersion": "3.0.1",
