@@ -2,7 +2,7 @@
   "Name": "Ketchup",
   "Description": "'The Red Sauce'",
   "Category": "Cooking",
-  "Edibility": 0,
+  "Edibility": 20,
   "EdibleIsDrink": false,
   "EdibleBuffs": {
     "Farming": 0,
