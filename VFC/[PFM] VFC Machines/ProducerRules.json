@@ -48,7 +48,9 @@
 		"Sounds": [
 			"furnace"
 		],
-		"PlacingAnimationColorName": "White"
+		"PlacingAnimationColorName": "White",
+		"PlacingAnimation": "Fire",
+		"PlacingAnimationOffsetY": -50
 	},
 	{ //glass furnace glasses
 		"ProducerName": "Glass Furnace",
@@ -65,7 +67,9 @@
 		"Sounds": [
 			"furnace"
 		],
-		"PlacingAnimationColorName": "White"
+		"PlacingAnimationColorName": "White",
+		"PlacingAnimation": "Fire",
+		"PlacingAnimationOffsetY": -50
 	},
 	{ //glass furnace glass shards
 		"ProducerName": "Glass Furnace",
@@ -82,7 +86,9 @@
 		"Sounds": [
 			"furnace"
 		],
-		"PlacingAnimationColorName": "White"
+		"PlacingAnimationColorName": "White",
+		"PlacingAnimation": "Fire",
+		"PlacingAnimationOffsetY": -50
 	},
 	{ 
 		"ProducerName": "Rock Pulveriser",
@@ -97,7 +103,13 @@
 		"KeepInputQuality": true,
 		"OutputStack": 5,
 		"Sounds": [
-			"boulderCrack"
+			"heavyEngine"
+		],
+		"DelayedSounds": [
+			{"stoneCrack": 3},
+			{"stoneCrack": 7},
+			{"stoneCrack": 9},
+			{"stoneCrack": 11}
 		],
 		"PlacingAnimationColorName": "White"
 	}
