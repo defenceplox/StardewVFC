@@ -5,19 +5,9 @@
   "Edibility": 10,
   "EdibleIsDrink": true,
   "EdibleBuffs": {
-    "Duration": 100,
-	"speed": 5,
+    "Duration": 30,
+	"speed": 2,
   },
   "Price": 400,
   "IsColored": false,
-  "Recipe": {
-    "ResultCount": 1,
-    "Ingredients": [
-      {
-        "Object": 245,
-        "Count": 5,
-      },
-    ],
-	"IsDefault": false,
-}
 }
