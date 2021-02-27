@@ -17,6 +17,23 @@
 		"PlacingAnimationColorName": "White"
 	},
 	{
+		"ProducerName": "Bottling Machine",
+		"InputIdentifier": "Sugar",
+		"InputStack": 5,
+		"FuelIdentifier": "Bottle",
+		"FuelStack": 2,
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Bottled Cola",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 2,
+		"Sounds": [
+			"sipTea"
+		],
+		"PlacingAnimationColorName": "White"
+	},
+	{
 		"ProducerName": "Glass Bottle Machine",
 		"InputIdentifier": "Glass",
 		"InputStack": 1,
