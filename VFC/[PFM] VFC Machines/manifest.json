@@ -1,11 +1,1 @@
-﻿{
-	"Name": "[PFM] VFC Machines",
-	"Author": "defenceplox",
-	"Version": "0.0.8",
-	"Description": "VFC Machinery",
-	"UniqueID": "defenceplox.VFCmachineryPFM",
-	"MinimumApiVersion": "3.0.1",
-	"ContentPackFor": {
-		"UniqueID": "DIGUS.ProducerFrameworkMod"
-	}
-}
+C:/Users/defen/AppData/Roaming/Vortex/stardewvalley/mods/SMAPI 3.9.2-2400-3-9-2-1613964245/StardewVFC/VFC/[PFM] VFC Machines/manifest.json

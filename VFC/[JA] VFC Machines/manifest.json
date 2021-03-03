@@ -1,12 +1,1 @@
-﻿{
-	"Name": "[JA] VFC Machines",
-	"Author": "defenceplox",
-	"Version": "0.0.8",
-	"Description": "Json Assets for VFC Machines",
-	"UniqueID": "defenceplox.VFCmachineryJA",
-	"MinimumApiVersion": "3.0.1",
-	"UpdateKeys": [],
-	"ContentPackFor": {
-		"UniqueID": "spacechase0.JsonAssets"
-	}
-}
+C:/Users/defen/AppData/Roaming/Vortex/stardewvalley/mods/SMAPI 3.9.2-2400-3-9-2-1613964245/StardewVFC/VFC/[JA] VFC Machines/manifest.json

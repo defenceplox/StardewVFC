@@ -1,3 +1,1 @@
-# StardewVFC
-
-Fried Chicken mod for Stardew Valley
+C:/Users/defen/AppData/Roaming/Vortex/stardewvalley/mods/SMAPI 3.9.2-2400-3-9-2-1613964245/StardewVFC/README.md
