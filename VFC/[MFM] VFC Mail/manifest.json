@@ -1,1 +1,17 @@
-C:/Users/defen/AppData/Roaming/Vortex/stardewvalley/mods/SMAPI 3.9.2-2400-3-9-2-1613964245/StardewVFC/VFC/[MFM] VFC Mail/manifest.json
+﻿{
+	"Name": "[MFM] VFC Mail",
+	"Author": "defence plox",
+	"Version": "0.1",
+	"Description": "Custom Letters from Barry Wong",
+	"UniqueID": "defenceplox.VFCMail",
+	"MinimumApiVersion": "2.11.3",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "defenceplox.VFC"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod"
+	}
+}

@@ -1,1 +1,21 @@
-C:/Users/defen/AppData/Roaming/Vortex/stardewvalley/mods/SMAPI 3.9.2-2400-3-9-2-1613964245/StardewVFC/VFC/[JA] VFC Items/Crops/Haricot Bean/crop.json
+{
+    "Name": "Haricot Bean",
+    "Product": "Haricot Bean",
+    "SeedName": "Haricot Bean Seeds",
+    "SeedDescription": "Plant these in the summer. Takes 10 days to mature.",
+    "Type": "Vegetable",
+
+    "Seasons": ["summer"],
+    "Phases": [ 1, 2, 3, 4, 3 ],
+    "RegrowthPhase": 2,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+"SeedPurchasePrice": 80,
+}

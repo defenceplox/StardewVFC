@@ -1,1 +1,13 @@
-C:/Users/defen/AppData/Roaming/Vortex/stardewvalley/mods/SMAPI 3.9.2-2400-3-9-2-1613964245/StardewVFC/VFC/[JA] VFC Items/Objects/Bottled Cola/object.json
+{
+  "Name": "Bottled Cola",
+  "Description": "Filled with delicious Sugar!",
+  "Category": "Cooking",
+  "Edibility": 10,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Duration": 30,
+	"speed": 2,
+  },
+  "Price": 400,
+  "IsColored": false,
+}

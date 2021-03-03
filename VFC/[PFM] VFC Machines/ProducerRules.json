@@ -1,1 +1,145 @@
-C:/Users/defen/AppData/Roaming/Vortex/stardewvalley/mods/SMAPI 3.9.2-2400-3-9-2-1613964245/StardewVFC/VFC/[PFM] VFC Machines/ProducerRules.json
+﻿[
+	{ //Bottle Machine Ketchup
+		"ProducerName": "Bottling Machine",
+		"InputIdentifier": "Ketchup",
+		"InputStack": 5,
+		"FuelIdentifier": "Bottle",
+		"FuelStack": 2,
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Bottled Ketchup",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 2,
+		"Sounds": [
+			"sipTea"
+		],
+		"PlacingAnimationColorName": "White"
+	},
+	{ //Bottle Machine COla
+		"ProducerName": "Bottling Machine",
+		"InputIdentifier": "Sugar",
+		"InputStack": 5,
+		"FuelIdentifier": "Bottle",
+		"FuelStack": 2,
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Bottled Cola",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 2,
+		"Sounds": [
+			"sipTea"
+		],
+		"PlacingAnimationColorName": "White",
+		"MailReceived": "VFC.Mbottle"
+	},
+	{
+		"ProducerName": "Glass Bottle Machine",
+		"InputIdentifier": "Glass",
+		"InputStack": 1,
+		"FuelIdentifier": 382,
+		"FuelStack": 1,
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Bottle",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 2,
+		"Sounds": [
+			"breakingGlass"
+		],
+		"PlacingAnimationColorName": "White"
+	},
+	{ //glass furnace sand
+		"ProducerName": "Glass Furnace",
+		"InputIdentifier": "Sand",
+		"InputStack": 5,
+		"FuelIdentifier": 382,
+		"FuelStack": 1,
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Glass",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 1,
+		"Sounds": [
+			"furnace"
+		],
+		"PlacingAnimationColorName": "White",
+		"PlacingAnimation": "Fire",
+		"PlacingAnimationOffsetY": -50
+	},
+	{ //glass furnace glasses
+		"ProducerName": "Glass Furnace",
+		"InputIdentifier": 170,
+		"InputStack": 1,
+		"FuelIdentifier": 382,
+		"FuelStack": 2,
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Glass",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 1,
+		"Sounds": [
+			"furnace"
+		],
+		"PlacingAnimationColorName": "White",
+		"PlacingAnimation": "Fire",
+		"PlacingAnimationOffsetY": -50
+	},
+	{ //glass furnace glass shards
+		"ProducerName": "Glass Furnace",
+		"InputIdentifier": 118,
+		"InputStack": 1,
+		"FuelIdentifier": 382,
+		"FuelStack": 1,
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Glass",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 1,
+		"Sounds": [
+			"furnace"
+		],
+		"PlacingAnimationColorName": "White",
+		"PlacingAnimation": "Fire",
+		"PlacingAnimationOffsetY": -50
+	},
+	{ 
+		"ProducerName": "Rock Pulveriser",
+		"InputIdentifier": 390,
+		"InputStack": 1,
+		"FuelIdentifier": 382,
+		"FuelStack": 1,
+		"MinutesUntilReady": 10,
+		"OutputIdentifier": "Sand",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 5,
+		"Sounds": [
+			"heavyEngine"
+		],
+		"DelayedSounds": [
+			{"heavyEngine": 1},
+			{"stoneCrack": 1},
+			{"stoneCrack": 100},
+			{"stoneCrack": 200},
+			{"stoneCrack": 500},
+			{"stoneCrack": 700},
+			{"stoneCrack": 900},
+			{"stoneCrack": 1200},
+			{"stoneCrack": 1500},
+			{"stoneCrack": 1900},
+			{"stoneCrack": 2200},
+			{"stoneCrack": 2500},
+			{"stoneCrack": 3000}
+		],
+		"PlacingAnimationColorName": "White",
+		//"PlacingAnimation": "Rock",
+		"PlacingAnimationOffsetY": -50
+	}
+]

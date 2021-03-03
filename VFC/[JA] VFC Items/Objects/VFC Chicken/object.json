@@ -1,1 +1,38 @@
-C:/Users/defen/AppData/Roaming/Vortex/stardewvalley/mods/SMAPI 3.9.2-2400-3-9-2-1613964245/StardewVFC/VFC/[JA] VFC Items/Objects/VFC Chicken/object.json
+{
+  "Name": "VFC",
+  "Description": "Finger Lickin' Good!",
+  "Category": "Cooking",
+  "Edibility": 100,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "Duration": 30,
+    "Speed": -2,
+  },
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+      {
+        "Object": 641,
+        "Count": 1,
+      }
+    ],
+    "IsDefault": false,
+ "GiftTastes":
+    {
+        "Love": [ "Pam"],
+        "Like": [],
+        "Dislike": ["Abigail","Krobus", "Leah", "Willy","Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Wizard"],
+    },
+  }
+}

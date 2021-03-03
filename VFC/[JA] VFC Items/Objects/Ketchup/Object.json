@@ -1,1 +1,35 @@
-C:/Users/defen/AppData/Roaming/Vortex/stardewvalley/mods/SMAPI 3.9.2-2400-3-9-2-1613964245/StardewVFC/VFC/[JA] VFC Items/Objects/Ketchup/Object.json
+{
+  "Name": "Ketchup",
+  "Description": "'The Red Sauce'",
+  "Category": "Cooking",
+  "Edibility": 20,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+    "Farming": 0,
+    "Foraging": 0,
+    "Mining": 0,
+    "Fishing": 0,
+    "Luck": 0,
+    "Duration": 100,
+  },
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 10,
+    "Ingredients": [
+      {
+        "Object": 256,
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 3,
+      },
+	  {
+		"Object": 419,
+		"Count": 1,
+	  }
+    ],
+    "IsDefault": false,
+  }
+}
