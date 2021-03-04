@@ -27,7 +27,11 @@ TODO:
 
 
 Dependencies:
+
     [Animal Husbandry Mod by Digus](https://stackoverflow.com/questions/7653483/github-relative-link-in-markdown-file/7658676)
+
     [Producer Framework Mod by Digus](https://www.nexusmods.com/stardewvalley/mods/4970)
+
     [Mail Framework Mod by Digus](https://www.nexusmods.com/stardewvalley/mods/1536)
+
     [Content Patcher mod by Pathoschild](https://www.nexusmods.com/stardewvalley/mods/1915)
