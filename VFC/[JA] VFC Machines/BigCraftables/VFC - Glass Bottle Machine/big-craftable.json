@@ -24,34 +24,6 @@
             "Object": 709,
             "Count": 10,
         }, ],
-        "IsDefault": false,
-    },
-    "NameLocalization":
-    {
-        // "es": "",
-        // "ko": "",
-        // "de": "",
-        // "fr": "",
-        // "hu": "",
-        // "it": "",
-        // "ja": "",
-        // "pt": "",
-        // "ru": "",
-        // "tr": "",
-        // "zh": "",
-    },
-    "DescriptionLocalization":
-    {
-        // "es": "",
-        // "ko": "",
-        // "de": "",
-        // "fr": "",
-        // "hu": "",
-        // "it": "",
-        // "ja": "",
-        // "pt": "",
-        // "ru": "",
-        // "tr": "",
-        // "zh": "",
+        "IsDefault": false
     }
 }
