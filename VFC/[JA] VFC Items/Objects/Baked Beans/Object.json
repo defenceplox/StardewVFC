@@ -5,11 +5,7 @@
   "Edibility": 50,
   "EdibleIsDrink": false,
   "EdibleBuffs": {
-    "Farming": 0,
     "Foraging": 1,
-    "Mining": 0,
-    "Fishing": 0,
-    "Luck": 0,
     "Duration": 100,
   },
   "Price": 200,
