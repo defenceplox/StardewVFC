@@ -3,7 +3,7 @@
   "Description": "It's the way that its churned",
   "Category": "Cooking",
   "Edibility": 10,
-  "EdibleIsDrink": true,
+  "EdibleIsDrink": false,
   "Price": 400,
   "IsColored": false,
   "Recipe": null
