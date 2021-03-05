@@ -3,7 +3,7 @@
   "Description": "Deliciously carby goodness",
   "Category": "Cooking",
   "Edibility": 100,
-  "EdibleIsDrink": true,
+  "EdibleIsDrink": false,
   "Price": 250,
   "IsColored": false,
   "Recipe": {
@@ -21,6 +21,8 @@
         "Object": 192,
         "Count": 4,
       }
-    ]
+      
+    ],
+      "IsDefault": true
   }
 }
