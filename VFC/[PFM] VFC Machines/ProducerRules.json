@@ -16,7 +16,7 @@
 		],
 		"PlacingAnimationColorName": "White"
 	},
-	{ //Bottle Machine COla
+	{ //Bottle Machine Cola
 		"ProducerName": "Bottling Machine",
 		"InputIdentifier": "Sugar",
 		"InputStack": 5,
@@ -141,5 +141,21 @@
 		"PlacingAnimationColorName": "White",
 		//"PlacingAnimation": "Rock",
 		"PlacingAnimationOffsetY": -50
+	},
+	{ //Butter Churn
+		"ProducerName": "Butter Churn",
+		"InputIdentifier": -6,
+		"InputStack": 1,
+		"FuelIdentifier": null,
+		"MinutesUntilReady": 20,
+		"OutputIdentifier": "Butter",
+		"OutputPriceIncrement": 200,
+		"OutputPriceMultiplier": 2.5,
+		"KeepInputQuality": true,
+		"OutputStack": 2,
+		"Sounds": [
+			"Ship"
+		],
+		"PlacingAnimationColorName": "White"
 	}
 ]

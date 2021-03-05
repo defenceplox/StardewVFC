@@ -1,0 +1,25 @@
+{
+    "Name": "Butter Churn",
+    "Description": "Turns milk into thick milk",
+    "Price": 1,
+    "ProvidesLight": false,
+    "ReserveExtraIndexCount": 13,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 170,
+            "Count": 5,
+        },
+        {
+            "Object": 388,
+            "Count": 50,
+        },
+        {
+            "Object": 334,
+            "Count": 5,
+        }, ],
+        "IsDefault": false,
+    }
+}

@@ -5,13 +5,14 @@ Fried Chicken mod for Stardew Valley.
 TODO:
 
     - More Recipes
-        - Mashed Potatoes
+        - Mashed Potatoes @done
         - Stock
 
     - More Crops
         - Carrots
 
     - More Machines
+        - Butter Churn @done
 
     - Custom NPC/Shop
         - take over ice cream counter?
