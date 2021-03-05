@@ -1,0 +1,26 @@
+{
+  "Name": "Mashed Potato",
+  "Description": "Deliciously carby goodness",
+  "Category": "Cooking",
+  "Edibility": 100,
+  "EdibleIsDrink": true,
+  "Price": 250,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "Butter",
+        "Count": 1,
+      },
+      {
+        "Object": -6,
+        "Count": 1,
+      },
+      {
+        "Object": 192,
+        "Count": 4,
+      }
+    ]
+  }
+}

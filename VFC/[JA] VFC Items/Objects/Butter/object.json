@@ -1,0 +1,10 @@
+{
+  "Name": "Butter",
+  "Description": "It's the way that its churned",
+  "Category": "Cooking",
+  "Edibility": 10,
+  "EdibleIsDrink": true,
+  "Price": 400,
+  "IsColored": false,
+  "Recipe": null
+}
