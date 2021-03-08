@@ -2,8 +2,5 @@
     "Name": "Statue of Endless Luck",
     "Description": "Touching this gives off a good vibe",
     "Price": 1,
-    "ProvidesLight": true,
-    "ReserveExtraIndexCount": 1,
-    "InputIdentifier": null,
-    
+    "ProvidesLight": true
 }
