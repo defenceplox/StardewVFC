@@ -157,10 +157,11 @@
 			"Ship"
 		],
 		"PlacingAnimationColorName": "White"
-	}
+	},
 	{
-		"Name": "Statue of Endless Luck",
-		"InputIdentifier": null
-		
+		"ProducerName": "Statue of Endless Luck",
+		"InputIdentifier": null,
+		"OutputIdentifier": "Bottled Luck"
+				
 	}
 ]

@@ -13,6 +13,7 @@ TODO:
 
     - More Machines
         - Butter Churn @done
+        - Luck Statue @done
 
     - Custom NPC/Shop
         - take over ice cream counter?
@@ -23,6 +24,9 @@ TODO:
 
     - tidy code
         - comment code
+
+    - endgame
+        - rewards for completing everything?
 
 
 

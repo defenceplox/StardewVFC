@@ -67,12 +67,6 @@
 	{
 		"ProducerName": "Statue of Endless Luck",
 		"DisableBouncingAnimationWhileWorking": true,
-		"AlternateFrameWhenReady": false,
-		"NoInputStartMode": true,
-		"IncrementStatsOnOutput":
-		{
-			"Luck": 2,
-			"Speed": 1
-		}
+		"NoInputStartMode": "DayUpdate"
 	}
 ]

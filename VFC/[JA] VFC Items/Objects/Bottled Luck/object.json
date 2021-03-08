@@ -1,0 +1,14 @@
+{
+  "Name": "Bottled Luck",
+  "Description": "Felix would be jealous",
+  "Category": "Cooking",
+  "Edibility": 10,
+  "EdibleIsDrink": true,
+  "EdibleBuffs": {
+    "Luck": 2,
+    "Duration": 300
+  },
+  "Price": 400,
+  "IsColored": false,
+  "Recipe": null
+}
