@@ -62,6 +62,17 @@
 		"ReadyAnimation": 
         {
           "RelativeFrameIndex": [6], // big-craftable-6
-		},
+		}
+	},
+	{
+		"ProducerName": "Statue of Endless Luck",
+		"DisableBouncingAnimationWhileWorking": true,
+		"AlternateFrameWhenReady": false,
+		"NoInputStartMode": true,
+		"IncrementStatsOnOutput":
+		{
+			"Luck": 2,
+			"Speed": 1
+		}
 	}
 ]
