@@ -19,6 +19,7 @@ TODO:
         - take over ice cream counter?
         - alternate days of travelling merchant?
         - new building by hat mouse?
+        - Barrys home. BNB in stardrop? @done
 
     - more letters
 
