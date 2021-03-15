@@ -1,5 +1,5 @@
 {
-   "Format": "1.20.0",
+   "Format": "1.21.0",
    "Changes": [
       {
          "Action": "EditData", 
@@ -21,6 +21,18 @@
           "Action": "Load",
           "Target": "Buildings/Coop",
           "FromFile": "assets/coop.png"
-       }
-	  ]
+       },
+	   	{
+	    "Action": "Load",
+	    "Target": "Maps/Saloon",
+	    "FromFile": "assets/Locations/Saloon.tmx",
+        },
+	  ],
+	  	"CustomLocations": [
+      // adds Barry's BNB
+	        {
+         "Name": "Custom_VFC_Saloonup",
+         "FromMapFile": "assets/Locations/Saloonup.tmx"
+      }
+]
 }

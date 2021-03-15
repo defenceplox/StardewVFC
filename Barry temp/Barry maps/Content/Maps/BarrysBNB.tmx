@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="15" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="32">
+ <properties>
+  <property name="AmbientLight" value="120 140 30"/>
+  <property name="DayTiles" value="Front 7 1 256 Front 7 2 288"/>
+  <property name="Doors" value="4 9 1 120"/>
+  <property name="Light" value="9 10 4 10 10 4"/>
+  <property name="NightTiles" value="Front 7 1 1253 Front 7 2 1285"/>
+  <property name="Warp" value="5 20 Town 94 82"/>
+ </properties>
+ <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="936">
+   <animation>
+    <frame tileid="936" duration="100"/>
+    <frame tileid="1864" duration="100"/>
+    <frame tileid="1866" duration="100"/>
+    <frame tileid="1868" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="937">
+   <animation>
+    <frame tileid="937" duration="100"/>
+    <frame tileid="1865" duration="100"/>
+    <frame tileid="1867" duration="100"/>
+    <frame tileid="1869" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="2177" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2213" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="1378">
+   <animation>
+    <frame tileid="1378" duration="120"/>
+    <frame tileid="1381" duration="120"/>
+    <frame tileid="1384" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1379">
+   <animation>
+    <frame tileid="1379" duration="120"/>
+    <frame tileid="1382" duration="120"/>
+    <frame tileid="1385" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1380">
+   <animation>
+    <frame tileid="1380" duration="120"/>
+    <frame tileid="1383" duration="120"/>
+    <frame tileid="1386" duration="120"/>
+   </animation>
+  </tile>
+  <tile id="1410">
+   <animation>
+    <frame tileid="1410" duration="250"/>
+    <frame tileid="1474" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="1411">
+   <animation>
+    <frame tileid="1411" duration="500"/>
+    <frame tileid="1475" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="15" height="20">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,35,35,35,35,35,35,35,35,35,1,1,1,
+1,1,66,67,67,67,67,67,67,67,67,67,1,1,1,
+1,1,98,99,99,99,99,99,99,99,99,99,100,1,1,
+1,1,2120,2120,2120,2120,2120,2120,2120,2120,2120,2120,2120,1,1,
+1,1,2120,2120,2120,2120,2120,2120,2120,2120,2120,2120,2120,1,1,
+1,1,2120,2120,2120,2120,1113,1114,1115,2120,2120,2120,2120,1,1,
+1,1,2120,2120,2120,2120,1145,1146,1147,2120,2120,2120,2120,1,1,
+1,1,2120,2120,2120,2120,2120,2120,2120,2120,2120,2120,2120,1,1,
+1,1,2120,2120,2120,2120,2120,2120,2120,2120,1916,1917,1918,1,1,
+1,1,2120,2120,2120,2120,2120,2120,2120,2120,1948,1949,1950,1,1,
+1,1,1,1,1,1,1,3221225733,0,0,0,1,1,1,1,
+1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,
+1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="15" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,
+0,0,34,0,0,35,35,35,35,0,0,0,0,0,0,
+0,65,66,67,67,67,67,67,67,67,67,67,68,69,0,
+0,65,0,678,679,99,99,99,99,99,99,389,390,69,0,
+0,65,0,710,711,0,0,0,0,432,0,421,422,69,0,
+0,65,0,780,0,0,0,0,0,0,0,0,0,69,0,
+0,65,0,0,0,0,0,0,0,0,0,323,324,69,0,
+0,65,0,0,0,555,556,0,0,0,0,0,0,69,0,
+0,65,0,0,0,587,588,0,0,0,0,0,0,69,0,
+0,65,0,0,0,619,620,0,0,0,0,0,0,69,0,
+0,97,0,0,0,0,0,0,0,0,0,0,0,168,0,
+0,1,1,1,1,1,1,0,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <layer id="3" name="Front" width="15" height="20">
+  <data encoding="csv">
+1,1,2,3,3,3,3,3,3,3,3,3,4,1,1,
+1,33,34,0,0,0,0,0,35,0,0,0,36,37,1,
+1,65,0,0,0,0,0,0,0,0,0,0,0,69,1,
+1,65,0,0,677,0,99,0,0,0,0,0,0,69,1,
+1,65,130,748,0,0,0,0,0,0,0,417,418,69,1,
+1,65,0,0,0,0,0,0,0,0,0,449,450,69,1,
+1,65,0,0,0,0,0,0,0,0,0,0,0,69,1,
+1,65,0,0,0,0,0,0,0,0,0,0,0,69,1,
+1,65,0,0,0,0,0,0,0,0,0,0,0,69,1,
+1,65,0,0,0,0,0,0,0,0,0,0,0,69,1,
+1,97,166,166,166,166,2375,0,2376,166,166,166,167,168,1,
+1,0,0,0,0,0,2277,0,2281,0,0,0,0,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+1,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="15" height="20" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2177,2179,0,0,0,0,2178,2182,2182,0,0,0,
+0,0,0,0,2177,2684356743,2684356743,2181,2182,2180,0,0,0,0,0,
+0,0,0,0,0,0,0,3221227655,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,3221227655,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,3221227655,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,3221227655,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="28" name="TileData" x="144" y="64" width="17.1366" height="16">
+   <properties>
+    <property name="Action" value="Dialogue &quot;The Wishing Pearl.&quot; Sounds like a good read"/>
+   </properties>
+  </object>
+  <object id="30" name="TileData" x="64" y="48" width="17.1366" height="16">
+   <properties>
+    <property name="Action" value="Dialogue This must be where Barry writes his letters"/>
+   </properties>
+  </object>
+  <object id="31" name="TileData" x="112" y="176" width="17.1366" height="16">
+   <properties>
+    <property name="Action" value="Warp 40 17 Saloon"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="8" name="Paths"/>
+</map>

@@ -1,6 +1,6 @@
 # StardewVFC
 
-Fried Chicken mod for Stardew Valley.
+Fried Chicken mod for Stardew Valley. Most likely wont be officially released unless SDV Discord keep tempting me with doritos. 
 
 TODO:
 
@@ -24,6 +24,11 @@ TODO:
 
     - tidy code
         - comment code
+    
+    - make compatible with other mods
+        - butter churn @done via dependency on mail 
+        - carrots
+        - meat
 
     - endgame
         - rewards for completing everything?
