@@ -20,6 +20,7 @@ TODO:
         - alternate days of travelling merchant?
         - new building by hat mouse?
         - Barrys home. BNB in stardrop? @done
+        - pathing
 
     - more letters
 

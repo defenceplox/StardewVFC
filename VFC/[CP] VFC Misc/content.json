@@ -1,35 +1,22 @@
 {
    "Format": "1.21.0",
    "Changes": [
-      {
-         "Action": "EditData", 
-         "Target": "Data/ObjectInformation",
-		 "Fields": {
-		 "192":
-			{
-			1: 0,
-			2: 0,
-			},
-		 "256":
-			{
-			1: 0,
-			2: 0,
-			}
-		}
-      },
-	        {
+	   //Change basic coop colour to red
+	   {
           "Action": "Load",
           "Target": "Buildings/Coop",
-          "FromFile": "assets/coop.png"
+          "FromFile": "assets/Buildings/coop.png"
        },
+	   //adds staircase to Saloon
 	   	{
 	    "Action": "Load",
 	    "Target": "Maps/Saloon",
 	    "FromFile": "assets/Locations/Saloon.tmx",
-        },
+        }
 	  ],
-	  	"CustomLocations": [
-      // adds Barry's BNB
+
+	"CustomLocations": [
+      // adds Upstairs Saloon
 	        {
          "Name": "Custom_VFC_Saloonup",
          "FromMapFile": "assets/Locations/Saloonup.tmx"

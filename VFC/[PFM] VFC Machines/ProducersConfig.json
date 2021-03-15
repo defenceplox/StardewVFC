@@ -9,8 +9,8 @@
 		},
 		"ReadyAnimation": 
         {
-          "RelativeFrameIndex": [13], // big-craftable-6
-		},
+          "RelativeFrameIndex": [13], 
+		}
 	},
 	{
 		"ProducerName": "Glass Bottle Machine",
@@ -22,8 +22,8 @@
 		},
 		"ReadyAnimation": 
         {
-          "RelativeFrameIndex": [8], // big-craftable-6
-		},
+          "RelativeFrameIndex": [8], 
+		}
 	},
 	{
 		"ProducerName": "Glass Furnace",
@@ -35,8 +35,8 @@
 		},
 		"ReadyAnimation": 
         {
-          "RelativeFrameIndex": [8], // big-craftable-6
-		},
+          "RelativeFrameIndex": [8], 
+		}
 	},
 	{
 		"ProducerName": "Rock Pulveriser",
@@ -48,8 +48,8 @@
 		},
 		"ReadyAnimation": 
         {
-          "RelativeFrameIndex": [4], // big-craftable-6
-		},
+          "RelativeFrameIndex": [4]
+		}
 	},
 	{
 		"ProducerName": "Butter Churn",
@@ -61,7 +61,7 @@
 		},
 		"ReadyAnimation": 
         {
-          "RelativeFrameIndex": [6], // big-craftable-6
+          "RelativeFrameIndex": [6]
 		}
 	},
 	{
