@@ -21,5 +21,6 @@
             "Count": 5,
         }, ],
         "IsDefault": false,
-    }
+    },
+    "EnableWithMod": "defenceplox.VFCMail",
 }

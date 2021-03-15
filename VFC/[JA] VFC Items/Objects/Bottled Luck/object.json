@@ -6,7 +6,7 @@
   "EdibleIsDrink": true,
   "EdibleBuffs": {
     "Luck": 2,
-    "Duration": 300
+    "Duration": 150
   },
   "Price": 400,
   "IsColored": false,

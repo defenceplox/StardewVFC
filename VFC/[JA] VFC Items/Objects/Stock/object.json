@@ -1,0 +1,19 @@
+{
+  "Name": "Stock",
+  "Description": "The base of all delicious saucy based dishes",
+  "Category": "Cooking",
+  "Edibility": 160,
+  "EdibleIsDrink": true,
+  "Price": 150,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 6,
+    "Ingredients": [
+      {
+        "Object": "Chicken",
+        "Count": 1,
+      }
+    ],
+    "IsDefault": false
+  }
+}
