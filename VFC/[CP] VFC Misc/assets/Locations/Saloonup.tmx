@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="46" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="40">
  <properties>
-  <property name="DayTiles" value="Front 7 1 256 Front 7 2 288"/>
+  <property name="DayTiles" value="Front 7 1 256 Front 7 2 288 Front 30 1 256 Front 30 2 288"/>
   <property name="Doors" value="11 9 1 120 20 9 1 120 41 9 1 120"/>
-  <property name="NightTiles" value="Front 7 1 1253 Front 7 2 1285"/>
-  <property name="Warp" value="39 13 Saloon 39 20 "/>
+  <property name="NightTiles" value="Front 7 1 1253 Front 7 2 1285 Front 30 1 256 Front 30 2 288"/>
+  <property name="Warp" value="39 14 Saloon 39 17 40 14 Saloon 40 18"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
@@ -50,13 +50,13 @@
  </tileset>
  <layer id="1" name="Back" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlFFuwjAMhp2iSewMlB1hB0Cj8M4hyhU4QXeTHQc4ydgLJwCEI+UHN2tTt2QSmvJLnxy5tus6aYiIyoxonf2NtUzpTin8oVyNELsy3aB2QfV+YpAzlav/btop3XfZ2E9l3zbOxk84bx6Z3M2w6ui7yn7PO7R38rnte/MAxwaGzPvAdsvsmH2L/ab7vKU/FnvSnf1SzHvM3/Fq6hZr6UeeHxfixO84MxcKx6E+zm3Iynn/UN1iLf3I8+NC5NzPlHkz4TjUf5Z5fzBzpuiIQ31f0mec1dwh4KCI195LffBr9u17POAdz9D3l6InTUxf/JoQznvBLJhlg126c932HHbt5cAXE0hz7wy1WMdE/p9GzF1sxU1dezlEs5f+OSNq7i8pKSkpKSnp/+gKPQvUiQ==
+   eJztlFFuwjAMhp1uk9gZKDvCnnhCo/DOIcoVdoJyE47DOAnsZSfYpjlafnCzNnVLJiGUX/rkyHEc10lDRFRmROvsf6xlQmdK4Q+t1QixK9MNchdUrycGOVO5/M+mndJ9l43dKOu2cTZ+zOvmkcldD6uOuqvsb79DZyfnbd2vF/DRwJB+H9numDdm32IPdO639MdiT7q7X4p+j/g7Hk3dYiz9WOfHhfjkPb6YbwrHIT/ubcjKfr9T3WIs/Vjnx4XIuZ4J82TCcch/Lf1+YeZM0RGH/L6kzzireUPAURGvfZf64OfsW/dowB7XUPdWUZMmpi9+Tgj3vWAWzLLBLt29bpuHXXtr4IsJpHl3hlqMYyL/TyP6Lo7ipK6zHKLZQ3h+ev+L1B0115eUlJSUlJR0O/oBvhDU+Q==
   </data>
  </layer>
  <objectgroup id="2" name="Back" visible="0"/>
  <layer id="3" name="Buildings" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlE0OATEYhr+ZOYTgDDgDCxvxewIbEokFNswR7MSWCzgDWwtn4CLYeCdpo6m2aYuw6Jc8M83Mk2/e+fsiIooYtuXi+vi2PV1yu97jt0rM3QFdAz0H14eekEvXnzti7gmYGphJbikmKoNK/OoOIA2lF2Pqzfvz0mXhjph7ReZaS24TeVugDRYJUQrGio/oyI7V4Y2wvoIbuIMdyMXP/rx0Wbjzye97njzXVUg1hbjEsTxyFkARnDx/Ft/c/Bn1f/ST+ubWoXM+XWLvBjYbtpfZMn9j6GXjuJaupzwH96SePweQGs7bOq7IPVW5s9lzJvX8uTBfd97W8YHovTn4D+U7B/+lvpU7Ychr8Zry9QOBQCAQCAQyHsyFVdI=
+   eJztlE+OAUEUh193H0JwBuMMLGyEGX2C2ZBILLDBEezElgvMbvZsLZxh5iLY+EmqdKVUlapCiNRLvlbd/eX1T/95ERFFDNtycX18254uuV3/46NKzP0FWgZSB9eHVMil688dMXcfDAwMJbcUE32AcnzptiF1InM/VX9euizcEXPP1I/kXHPJbSBvE3yCcUI0AT3pJfrF/oYdq8HrYr0De3AAPyAXZ/156bJw557v9yjJ1hVIVYU4xbE8chZAEWw9Pxbf3PwefT/pI/XNrUPn3LvE3nVsFuxXZsn8haGXjeNaup7yHFyRev6swcRw3tZxRe6pyn2aPX+knj//zNedt3V8ILptDr5C+c7BV6lH5U4Y8lq8pnx93Qy6NsMCgUAgEAi8F0dXjVfU
   </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -75,12 +75,12 @@
     <property name="Action" value="Door"/>
    </properties>
   </object>
-  <object id="35" name="TileData" x="384" y="64" width="16" height="16">
+  <object id="35" name="TileData" x="496" y="64" width="16" height="32">
    <properties>
     <property name="Action" value="Dialogue This must be where Barry writes his letters"/>
    </properties>
   </object>
-  <object id="36" name="TileData" x="496" y="64" width="16" height="16">
+  <object id="36" name="TileData" x="384" y="64" width="16" height="16">
    <properties>
     <property name="Action" value="Dialogue &quot;The Wishing Pearl.&quot; Sounds like a good read"/>
    </properties>
@@ -88,7 +88,7 @@
  </objectgroup>
  <layer id="5" name="Front" width="46" height="25">
   <data encoding="base64" compression="zlib">
-   eJztlj9OwzAUxp8bmDhFBhgQSyUkYGuEysTEAOo1OIHPwA1KCjMTcyGIIyAB96Arn5Xn1H3YSRqp0CJ/0k+x488vX/70qURz9cBODVtAMU3eDmjU1KokWN96bOYU7PM42y6PSi3OD8Cu452BR/Am9hkd4QLHPVpKqKnTkipLyGPnmceTqp/nho73qybXEHvPPPubhNral0V6nHErubldXSZEI3DOWXMcJzw+5fewx/f5jvMf4JPXZ879/XZuo6tkPi6Q5QU81DzzO8/7WnVu+4wGHb6Fpkyryj0Gt+BekLNn4lnzoCWoqcclVX1bMxcem8d4n2qu8wpOwDNIAhQtPMsia3IfrOTrgyTmo8B6W4/0hubu+T7X7PO8TR9cR11Qt+/7r3VNm5n7hjYzt1Em+gl+r9N1Af1jeog/coZicW3g9sGoqKioqKio/6dvxr9zzw==
+   eJztlE9OwkAUxl+prjxFF7owblgpOxqCK1cuNFzDE8wZvAEWPQJroIYjkKj3kK3fpG/KYzIzFBIUzHzJL53pfPP69d8jWqkFzgKcgITZ5N0BhZoqqfDWNx6TOQOXPM5Pq2OSrM+vwLnwLsEYLKx9Wte4wE2LvDK1pVBTZRV1Fp/HzHOHJ3PU7gvvdyBXH3tvHftDtTmHcmWxPWLcSDK31ENKNAB3nKfAccTjHr+HC77PD5z/BF+8vhT38Nu5tR7T1bhElvfA89Z6dbyvfec2z6i7Idu22mfuIXgBbxYFe0aONQfKBjXVsKKub2oWlsfk0d5p4Dpz0AEzkHooG3i2xa7JfbCWqw+SNR941pt6bK9vLs+3uWab50364CHqnnb7vv9aT3ScuZ/pOHNr5VY/wf86ORTQPyYmW7m+1pV9MCoqKioqKur/6QdbuXLS
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
